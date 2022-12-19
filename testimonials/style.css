@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow-y: hidden;
+    font-size: 15px;
+    padding-top: 100px;
+    background: linear-gradient( rgba(245, 229, 206, 0.479) ,  rgba(219, 217, 217, 0.479)), url(./img/carbackground.webp) center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+h2 {
+    padding-bottom: 15px;
+    color: rgb(245, 80, 50);
+}
+
+i{
+    color: rgb(245, 80, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-btn,#right-btn{
+    border: 1px solid  rgb(245, 80, 50);
+    border-radius: 50%;
+    padding: 12px 6px;
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+#left-btn{
+    position: absolute;
+    left:-40px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#right-btn{
+    position: absolute;
+    right:-40px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#right-btn:hover , #left-btn:hover{
+    background-color:rgb(245, 80, 50) ;
+    color: white;
+}
+
+#img{
+    border-radius: 50%;
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top:-70px;
+    right: 50%;
+    transform: translateX(50%);
+    /* object-fit: contain; */
+}
+
+.des{
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+    max-width:700px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 70px 20px 50px 20px ;
+}
