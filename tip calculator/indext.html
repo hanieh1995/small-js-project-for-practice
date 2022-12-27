@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="content">
+            <div class="alarm">
+                <p>Bill Amount Cannot Be Blank </p>
+                <p>Number Of Users Must Be Greater Than Zero</p>
+                <p>You Must Select A Service</p>
+                </div>
+            <form action="">
+                <div class="title">How Much Was Your Bill ?</div>
+                <div class="input">
+                    <i class="fa fa-dollar"></i>
+                    <input class="bill" type="number" step="0.01" min="0" name="" id="">
+                </div>
+                <div class="title">How Many People Sharing The Bill ?</div>
+                <div class="input">
+                    <i class="fa fa-user"></i>
+                    <input class="numbers" type="number" min="0" name="" id="">
+                </div>
+                <div class="title">How Was Your Service</div>
+                <div class="input">
+                    <select class="choose" name="cars" id="cars">
+                        <option value="0">Choose...</option>
+                        <option value="20">Great 20%</option>
+                        <option value="10">Good-10%</option>
+                        <option value="2">Bad-2%</option>
+                    </select>
+                </div>
+                <input class="submit" type="submit" name="" id="" value="Calculate">
+            </form>
+            <div class="loading">
+                <img src="./loading.gif" alt="">
+            </div>
+            <div class="result">
+                <h1></h1>
+                <h1> </h1>
+                <h1> </h1>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

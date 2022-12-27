@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+body {
+    background-color: #86bbd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.title {
+    margin: 0 0 8px 2px;
+    font-size: 1.5em;
+}
+
+main .header {
+    background-color: #336699;
+    color: white;
+    padding: 10px 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 35px;
+}
+
+.input {
+    margin: 0 0 20px 0;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 1.5em;
+    color: rgb(92, 92, 92);
+}
+
+input:focus , .choose:focus{
+    box-shadow: 0 0 0px 3px #adddf7;
+}
+
+i {
+    z-index: 1;
+    background-color: #336699;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 2em;
+    padding: 18px;
+    text-align: center;
+
+}
+
+main .content {
+    padding: 0px 20px 20px 20px;
+}
+
+.submit {
+    padding: 12px;
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 5px; 
+    background-color: #336699;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+     cursor: pointer;
+    
+}
+
+.submit:focus{
+    box-shadow: 0 0 0px 3px #adddf7;
+}
+
+.submit:hover {
+    background-color: #86bbd8;
+    color: rgb(92, 92, 92);
+}
+
+.choose {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    color: rgb(92, 92, 92);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.alarm{
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    margin: 0px 0px 25px 0px;
+text-align: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    /* display: none; */
+    border-radius: 5px;
+    display: none;
+}
+
+.alarm p {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.loading{
+    text-align: center;
+    display: none;
+}
+
+.result{
+    padding-top: 20px;
+   display: none; 
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
